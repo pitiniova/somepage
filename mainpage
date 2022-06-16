@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Welcome to our website </title>
+        <link rel="stylesheet" href="shopwebcite.css">
+        <style>
+            button:hover {
+                background-color: #616161;
+            }     
+        </style>
+    </head>
+    <body style="background-color: #616161;"> 
+        <h1>Welcome to our website</h1>
+        <h2>You can see the contents of our website below</h2>
+        <img src="file:///C:/Users/note-fuj/Pictures/нужно/the/wanda01.jpg" alt="Wanda Maximoff" height="235"> 
+        <img src="file:///C:/Users/note-fuj/Pictures/нужно/the/ironman01.jpg" alt="Iron Man" height="235">
+        <img src="file:///C:/Users/note-fuj/Pictures/нужно/the/blackwidow01.jpg" alt="Black Widow" height="235">
+
+        <h3 id="wanda">Wanda Maximoff</h3> 
+        <h3 id="im">Iron Man</h3> 
+        <h3 id="bw">Black Widow</h3>
+        
+        <button class="nw">Tap to see more</button>
+        <button onclick="window.location.href = 'file:///C:/Users/note-fuj/Pictures/нужно/html/ironman.html'">Tap to see more</button>       
+        <button class="nw">Tap to see more</button>
+
+    </body>
+</html>
